@@ -1,4 +1,6 @@
 package co.edu.uniquindio.poo.model;
 
-public class Reporte {
+public interface Reporte{
+    void generar();
+    String getTipo();
 }
